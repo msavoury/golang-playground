@@ -18,3 +18,14 @@ go test say_test.go
 
 # Errors
 If you see `cannot find main module` try running `go mod init <module-name>`
+
+
+## Short declaration operator
+Can only be used in functions
+```
+func main() {
+  c :=2
+  // print the type of something using %T
+  fmt.Printf("a: %T %v", c, c)
+}
+```
